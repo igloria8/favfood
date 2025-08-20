@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favourite foods web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>FAV FOOD</h1>
+    </header>
+    <div class="cont1">
+        <h1>Among these:</h1>
+        <img src="chips.jpg">
+        <img src="water.jpeg">
+        <img src="chicken.jpeg">
+        <img src="boba.jpeg">
+    </div>
+    <div class="cont2">
+        <label class="select">Choose your fav one</label>
+        <select class="favchips">
+            <option>SELECT</option>
+            <option>Chips</option>
+            <option>Water</option>
+            <option>Chicken</option>
+            <option>Boba</option>
+            <option>Not there</option>
+        </select>
+        <button onclick="getElementById('but').innerHTML=('Done!')">
+            <p id="but">Confirm</p>
+        </button>
+    </div>
+</body>
+<script src="script.js"></script>

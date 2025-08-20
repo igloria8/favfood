@@ -1,0 +1,48 @@
+body {
+    background: rgb(153, 231, 214);
+    color: rgb(47, 46, 48);
+}
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(212, 217, 217);
+    text-align: center;
+}
+
+.cont1 {
+    position: absolute;
+    top: 60px;
+    left: 20%;
+}
+.cont1 img{
+    height: 160px;
+    width: 160px;
+}
+
+.cont2 {
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    font-size: larger;
+}
+.cont2 select{
+    background: rgb(219, 184, 194);
+    border-radius: 10px;
+    width: 90px;
+    height: 30px;
+    text-align: center;
+}
+
+button {
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    background: rgb(50, 76, 109);
+    font-size: 16px;
+    position: absolute;
+    left: 30%;
+    top: 120%;
+    width: 60%;
+}
